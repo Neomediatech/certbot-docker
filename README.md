@@ -4,6 +4,7 @@ Dockerized version of certbot, a Let's Encrypt Certification Authority client
 ## usage
 * You should bind mount a host folder for certificates and a folder for acme-challenge verification
 * You must have a reverse proxy or other forward method to listen on port 80
+* puth the file named `cli.ini` in `certbot_certs` volume
 
 ### docker-compose.yml example
 (Supposing we call this stack "pusher")
